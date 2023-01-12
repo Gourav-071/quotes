@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #cf5483, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar {
+  color: rgb(228, 58, 114);
+
+  background-color: antiquewhite;
+  height: 10vh;
+
+  display: flex;
+}
+
+.logo {
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.head {
+  margin-left: 8px;
+  padding-top: 8px;
+  font-size: xx-large;
+}
+
+.container {
+  text-align: center;
+  background-color: antiquewhite;
+  width: 70%;
+  height: 50vh;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 70px;
+
+  box-shadow: 7px 4px 5px rgb(228, 58, 114);
+}
+.container1 {
+  text-align: center;
+  background-color: antiquewhite;
+  width: 30%;
+  height: 20vh;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 1%;
+  box-shadow: 7px 4px 5px rgb(228, 58, 114);
+}
+.whatsapp1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.whatsapp {
+  height: 26px;
+  width: 26px;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+.instagram {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+.tweeter {
+  height: 25px;
+  width: 25px;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+#quot {
+  font-family: "Merienda", cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 4vh;
+  color: rgb(228, 58, 114);
+  margin-top: 20px;
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.qlogo {
+  padding-right: 50vw;
+  padding-top: 10px;
+}
+.qlogo1 {
+  padding-left: 50vw;
+  margin-top: 35px;
+}
+#newq {
+  width: 40%;
+  height: 30px;
+  margin-top: 5vh;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  background-color: pink;
+  border-color: pink;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#author {
+  font-size: small;
+  font-family: "Merienda", cursive;
+
+  position: relative;
+  bottom: 10vw;
+
+  text-align: center;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+  }
+  to {
+    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+  }
+}
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
